@@ -31,7 +31,10 @@ PRODUCT_NAME := marble
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=marble_global
+    DeviceName=marble \
+    DeviceProduct=marble \
+    SystemDevice=marble \
+    SystemName=marble
 
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 1080
