@@ -35,8 +35,3 @@ service mfp-daemon /vendor/bin/hw/mfp-daemon
     user system
     group system drmrpc diag input uhid
     capabilities SYS_NICE
-
-on boot
-    write /dev/cpuctl/top-app/cpu.uclamp.min 40
-    write /dev/cpuctl/top-app/cpu.uclamp.max 100
-    write /dev/stune/top-app/schedtune.boost 20
