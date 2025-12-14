@@ -37,19 +37,12 @@ service mfp-daemon /vendor/bin/hw/mfp-daemon
     capabilities SYS_NICE
 
 on boot
-    write /dev/cpuctl/top-app/cpu.uclamp.min 10
+    write /dev/cpuctl/top-app/cpu.uclamp.min 40
     write /dev/cpuctl/top-app/cpu.uclamp.max 100
-    write /dev/stune/top-app/schedtune.boost 10
-    write /dev/stune/top-app/schedtune.boost 10
-   # GPU boost
-    write /sys/class/kgsl/kgsl-3d0/devfreq/min_freq 270000000
+    write /dev/stune/top-app/schedtune.boost 20
+    #gpu boost
+    write /sys/class/kgsl/kgsl-3d0/devfreq/min_freq 439000000
     write /sys/class/kgsl/kgsl-3d0/devfreq/max_freq 580000000
 on property:sys.boot_completed=1
-    # GPU low profile
-    write /sys/class/kgsl/kgsl-3d0/devfreq/min_freq 180000000
-    # schduler tuning
-    write /proc/sys/kernel/sched_downmigrate 65
-    write /proc/sys/kernel/sched_upmigrate 75
-    # cpu touch boost
-    write /sys/module/cpu_boost/parameters/input_boost_freq 0:1248000 1:1248000
-    write /sys/module/cpu_boost/parameters/input_boost_ms 140
+    # gpu mid cap
+    write /sys/class/kgsl/kgsl-3d0/devfreq/min_freq 324000000
