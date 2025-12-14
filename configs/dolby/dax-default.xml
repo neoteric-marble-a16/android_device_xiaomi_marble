@@ -328,12 +328,12 @@
         <ieq-enable value="false"/>
         <ieq-amount value="6"/>
         <include preset="ieq_balanced"/>
-        <calibration-boost value="0"/>
+        <calibration-boost value="6"/>
         <dialog-enhancer-enable value="true"/>
         <dialog-enhancer-amount value="4"/>
         <dialog-enhancer-ducking value="0"/>
         <mi-virtualizer-binaural-steering-enable value="false"/>
-        <peak-value value="256"/>
+        <peak-value value="300"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
         <volmax-boost value="64"/>
@@ -427,7 +427,7 @@
         <ieq-enable value="true"/>
         <ieq-amount value="6"/>
         <include preset="ieq_balanced"/>
-        <calibration-boost value="0"/>
+        <calibration-boost value="6"/>
         <dialog-enhancer-enable value="true"/>
         <dialog-enhancer-amount value="6"/>
         <dialog-enhancer-ducking value="0"/>
@@ -435,7 +435,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="16"/>
-        <volmax-boost value="32"/>
+        <volmax-boost value="16"/>
         <volume-leveler-enable value="true"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -526,7 +526,7 @@
         <ieq-enable value="true"/>
         <ieq-amount value="6"/>
         <include preset="ieq_balanced"/>
-        <calibration-boost value="0"/>
+        <calibration-boost value="6"/>
         <dialog-enhancer-enable value="false"/>
         <dialog-enhancer-amount value="6"/>
         <dialog-enhancer-ducking value="0"/>
@@ -534,7 +534,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="48"/>
+        <volmax-boost value="32"/>
         <volume-leveler-enable value="true"/>
         <volume-leveler-amount value="2"/>
         <volume-leveler-in-target value="-256"/>
@@ -625,7 +625,7 @@
         <ieq-enable value="false"/>
         <ieq-amount value="6"/>
         <include preset="ieq_warm"/>
-        <calibration-boost value="0"/>
+        <calibration-boost value="6"/>
         <dialog-enhancer-enable value="false"/>
         <dialog-enhancer-amount value="6"/>
         <dialog-enhancer-ducking value="0"/>
@@ -633,7 +633,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="32"/>
+        <volmax-boost value="16"/>
         <volume-leveler-enable value="true"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -724,7 +724,7 @@
         <ieq-enable value="true"/>
         <ieq-amount value="6"/>
         <include preset="ieq_balanced"/>
-        <calibration-boost value="0"/>
+        <calibration-boost value="6"/>
         <dialog-enhancer-enable value="true"/>
         <dialog-enhancer-amount value="6"/>
         <dialog-enhancer-ducking value="0"/>
@@ -732,7 +732,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="48"/>
+        <volmax-boost value="32"/>
         <volume-leveler-enable value="true"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -823,7 +823,7 @@
         <ieq-enable value="false"/>
         <ieq-amount value="6"/>
         <include preset="ieq_balanced"/>
-        <calibration-boost value="0"/>
+        <calibration-boost value="6"/>
         <dialog-enhancer-enable value="true"/>
         <dialog-enhancer-amount value="6"/>
         <dialog-enhancer-ducking value="0"/>
@@ -831,7 +831,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="48"/>
+        <volmax-boost value="32"/>
         <volume-leveler-enable value="true"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -922,7 +922,7 @@
         <ieq-enable value="true"/>
         <ieq-amount value="6"/>
         <include preset="ieq_balanced"/>
-        <calibration-boost value="0"/>
+        <calibration-boost value="6"/>
         <dialog-enhancer-enable value="false"/>
         <dialog-enhancer-amount value="6"/>
         <dialog-enhancer-ducking value="0"/>
@@ -930,7 +930,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="48"/>
+        <volmax-boost value="32"/>
         <volume-leveler-enable value="true"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -1021,7 +1021,7 @@
         <ieq-enable value="false"/>
         <ieq-amount value="6"/>
         <include preset="ieq_warm"/>
-        <calibration-boost value="0"/>
+        <calibration-boost value="6"/>
         <dialog-enhancer-enable value="false"/>
         <dialog-enhancer-amount value="6"/>
         <dialog-enhancer-ducking value="0"/>
@@ -1029,7 +1029,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="48"/>
+        <volmax-boost value="32"/>
         <volume-leveler-enable value="true"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -1120,7 +1120,7 @@
         <ieq-enable value="true"/>
         <ieq-amount value="11"/>
         <include preset="ieq_detailed"/>
-        <calibration-boost value="0"/>
+        <calibration-boost value="6"/>
         <dialog-enhancer-enable value="true"/>
         <dialog-enhancer-amount value="9"/>
         <dialog-enhancer-ducking value="0"/>
@@ -1128,7 +1128,7 @@
         <peak-value value="240"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="48"/>
+        <volmax-boost value="32"/>
         <volume-leveler-enable value="true"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -1255,8 +1255,8 @@
       </regulator-tuning>
       <regulator-sibilance-suppress-amounts-left value="-336,-416,-400,-384,-352,-368"/>
       <regulator-sibilance-suppress-amounts-right value="-352,-416,-400,-384,-352,-368"/>
-      <bass-enhancer-boost value="192"/>
-      <bass-enhancer-cutoff-frequency value="200"/>
+      <bass-enhancer-boost value="256"/>
+      <bass-enhancer-cutoff-frequency value="180"/>
       <bass-enhancer-width value="16"/>
       <bass-extraction-cutoff-frequency value="200"/>
       <complex-equalizer-tuning-left value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
@@ -1277,7 +1277,7 @@
       <regulator-distortion-slope value="16"/>
       <bass-mbdrc-tuning value="0,-736,0,-640,-352,-256,0,8,16,-96,1,-1120,-16,-800,-176,0,-16,10,20,16,1,-1120,-32,-800,-240,0,-64,10,20,64,1,-1120,-16,-800,-240,0,-16,8,16,16,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1120,-32,-800,-240,0,-16,5,10,16,0,-1120,-32,-800,-240,0,-16,5,10,16,0,-1600,0,-1120,-400,-240,0,5,10,0"/>
       <virtual-bass-mode value="3"/>
-      <virtual-bass-overall-gain value="0"/>
+      <virtual-bass-overall-gain value="64"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
       <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
@@ -1351,8 +1351,8 @@
       </regulator-tuning>
       <regulator-sibilance-suppress-amounts-left value="-192,-320,-368,-304,-240,-208"/>
       <regulator-sibilance-suppress-amounts-right value="-176,-272,-336,-272,-224,-192"/>
-      <bass-enhancer-boost value="192"/>
-      <bass-enhancer-cutoff-frequency value="200"/>
+      <bass-enhancer-boost value="256"/>
+      <bass-enhancer-cutoff-frequency value="180"/>
       <bass-enhancer-width value="16"/>
       <bass-extraction-cutoff-frequency value="200"/>
       <complex-equalizer-tuning-left value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
@@ -1373,7 +1373,7 @@
       <regulator-distortion-slope value="16"/>
       <bass-mbdrc-tuning value="0,-736,0,-640,-352,-256,0,8,16,-96,1,-1120,-16,-800,-240,0,-16,10,20,16,1,-1120,-32,-800,-240,0,-32,10,20,32,1,-1120,-16,-800,-240,0,-16,8,16,16,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1120,-32,-800,-240,0,-16,5,10,16,0,-1120,-32,-800,-240,0,-16,5,10,16,0,-1600,0,-1120,-400,-240,0,5,10,0"/>
       <virtual-bass-mode value="3"/>
-      <virtual-bass-overall-gain value="0"/>
+      <virtual-bass-overall-gain value="64"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
       <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
@@ -1450,8 +1450,8 @@
       </regulator-tuning>
       <regulator-sibilance-suppress-amounts-left value="0,0,0,0,0,0"/>
       <regulator-sibilance-suppress-amounts-right value="0,0,0,0,0,0"/>
-      <bass-enhancer-boost value="96"/>
-      <bass-enhancer-cutoff-frequency value="160"/>
+      <bass-enhancer-boost value="256"/>
+      <bass-enhancer-cutoff-frequency value="180"/>
       <bass-enhancer-width value="16"/>
       <bass-extraction-cutoff-frequency value="200"/>
       <complex-equalizer-tuning-left value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
@@ -1466,7 +1466,7 @@
       <regulator-distortion-slope value="16"/>
       <bass-mbdrc-tuning value="1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0"/>
       <virtual-bass-mode value="3"/>
-      <virtual-bass-overall-gain value="0"/>
+      <virtual-bass-overall-gain value="64"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="99" frequency_high="281"/>
       <virtual-bass-src-freqs frequency_low="30" frequency_high="90"/>
@@ -1541,8 +1541,8 @@
       </regulator-tuning>
       <regulator-sibilance-suppress-amounts-left value="0,0,0,0,0,0"/>
       <regulator-sibilance-suppress-amounts-right value="0,0,0,0,0,0"/>
-      <bass-enhancer-boost value="192"/>
-      <bass-enhancer-cutoff-frequency value="200"/>
+      <bass-enhancer-boost value="256"/>
+      <bass-enhancer-cutoff-frequency value="180"/>
       <bass-enhancer-width value="16"/>
       <bass-extraction-cutoff-frequency value="200"/>
       <complex-equalizer-tuning-left value="0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0,32767,0"/>
@@ -1557,7 +1557,7 @@
       <regulator-distortion-slope value="16"/>
       <bass-mbdrc-tuning value="1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,1,0"/>
       <virtual-bass-mode value="3"/>
-      <virtual-bass-overall-gain value="0"/>
+      <virtual-bass-overall-gain value="64"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
       <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
