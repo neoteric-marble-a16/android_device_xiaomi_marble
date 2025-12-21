@@ -31,8 +31,8 @@ PRODUCT_NAME := marble
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="marble_global-user 14 UKQ1.231003.002 V816.0.7.0.UMRMIXM release-keys" \
-    BuildFingerprint=POCO/marble_global/marble:14/UKQ1.231003.002/V816.0.7.0.UMRMIXM:user/release-keys \
+    BuildDesc="marble_global-user 15 AQ3A.241006.001 OS2.0.211.0.VMRMIXM release-keys" \
+    BuildFingerprint=POCO/marble_global/marble:15/AQ3A.241006.001/OS2.0.211.0.VMRMIXM:user/release-keys \
     DeviceName=marble \
     DeviceProduct=marble \
     SystemDevice=marble \
