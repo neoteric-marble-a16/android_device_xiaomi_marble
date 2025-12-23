@@ -80,6 +80,9 @@ PRODUCT_PACKAGES += \
     MarbleSystemUIOverlay \
     NeotericMarbleFrameworksOverlay 
 
+# Revanced
+$(call inherit-product, vendor/revanced/products/revanced.mk)
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 33
 
