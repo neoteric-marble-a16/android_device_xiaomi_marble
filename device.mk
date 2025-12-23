@@ -36,6 +36,9 @@ PRODUCT_COPY_FILES += \
 # Fingerprint
 TARGET_USES_MFP_DAEMON := true
 
+# GameBar Performance Overlay
+$(call inherit-product, packages/apps/GameBar/gamebar.mk)
+
 # Init scripts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/bin/init.marble.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.marble.sh \
