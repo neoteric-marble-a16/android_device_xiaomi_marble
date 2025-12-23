@@ -8,6 +8,9 @@
 # Inherit from sm8450-common
 $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 
+# Audio
+$(call soong_config_set,android_hardware_audio,skip_speaker_layout_channel_mask_field,true)
+
 # BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
 
