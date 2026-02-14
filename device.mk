@@ -32,6 +32,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.display.enable_hist_intr=1 \
     vendor.display.idle_time=0
 
+TARGET_GRALLOC_HANDLE_HAS_NO_RESERVED_SIZE := true
+
 # Dolby
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
