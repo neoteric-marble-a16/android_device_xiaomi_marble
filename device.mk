@@ -34,6 +34,13 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 TARGET_GRALLOC_HANDLE_HAS_NO_RESERVED_SIZE := true
 
+# Dialer
+PRODUCT_PACKAGES += \
+    Dialer \
+    privapp_whitelist_com.android.dialer
+
+PRODUCT_DEFAULT_DIALER := com.android.dialer
+
 # Dolby
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
@@ -61,6 +68,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     LMOFreeform \
     LMOFreeformSidebar
+
+# MicroG 
+$(call inherit-product, vendor/partner_gms/products/gms.mk)
+
+WITH_GMS := true
 
 # NFC
 TARGET_NFC_SKU := marble
@@ -93,11 +105,15 @@ PRODUCT_PACKAGES += \
     MarbleSystemUIOverlay \
     NeotericMarbleFrameworksOverlay 
 
-# Revanced
-$(call inherit-product, vendor/revanced/products/revanced.mk)
-
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 33
 
 # Vendor blobs
 $(call inherit-product, vendor/xiaomi/marble/marble-vendor.mk)
+
+PRODUCT_PACKAGES += \
+    Dialer \
+    privapp_whitelist_com.android.dialer
+
+# Optional – ensures this Dialer becomes default
+PRODUCT_DEFAULT_DIALER := com.android.dialer
