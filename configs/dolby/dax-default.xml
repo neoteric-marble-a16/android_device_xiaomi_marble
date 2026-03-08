@@ -336,7 +336,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="64"/>
+        <volmax-boost value="48"/>
         <volume-leveler-enable value="true"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -435,7 +435,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="16"/>
-        <volmax-boost value="48"/>
+        <volmax-boost value="16"/>
         <volume-leveler-enable value="true"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -534,7 +534,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="48"/>
+        <volmax-boost value="32"/>
         <volume-leveler-enable value="true"/>
         <volume-leveler-amount value="2"/>
         <volume-leveler-in-target value="-256"/>
@@ -633,7 +633,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="48"/>
+        <volmax-boost value="16"/>
         <volume-leveler-enable value="true"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -732,7 +732,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="48"/>
+        <volmax-boost value="32"/>
         <volume-leveler-enable value="true"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -831,7 +831,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="48"/>
+        <volmax-boost value="32"/>
         <volume-leveler-enable value="true"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -930,7 +930,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="48"/>
+        <volmax-boost value="32"/>
         <volume-leveler-enable value="true"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -1029,7 +1029,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="48"/>
+        <volmax-boost value="32"/>
         <volume-leveler-enable value="true"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -1128,7 +1128,7 @@
         <peak-value value="240"/>
         <surround-decoder-enable value="true"/>
         <surround-boost value="0"/>
-        <volmax-boost value="48"/>
+        <volmax-boost value="32"/>
         <volume-leveler-enable value="true"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -1255,7 +1255,7 @@
       </regulator-tuning>
       <regulator-sibilance-suppress-amounts-left value="-336,-416,-400,-384,-352,-368"/>
       <regulator-sibilance-suppress-amounts-right value="-352,-416,-400,-384,-352,-368"/>
-      <bass-enhancer-boost value="192"/>
+      <bass-enhancer-boost value="208"/>
       <bass-enhancer-cutoff-frequency value="200"/>
       <bass-enhancer-width value="16"/>
       <bass-extraction-cutoff-frequency value="200"/>
@@ -1272,9 +1272,9 @@
         </mix_matrix>
       </output-mode>
       <regulator-overdrive value="0"/>
-      <regulator-timbre-preservation value="12"/>
+      <regulator-timbre-preservation value="16"/>
       <regulator-stress-amount value="240,240,96,96"/>
-      <regulator-distortion-slope value="16"/>
+      <regulator-distortion-slope value="20"/>
       <bass-mbdrc-tuning value="0,-736,0,-640,-352,-256,0,8,16,-96,1,-1120,-16,-800,-176,0,-16,10,20,16,1,-1120,-32,-800,-240,0,-64,10,20,64,1,-1120,-16,-800,-240,0,-16,8,16,16,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1120,-32,-800,-240,0,-16,5,10,16,0,-1120,-32,-800,-240,0,-16,5,10,16,0,-1600,0,-1120,-400,-240,0,5,10,0"/>
       <virtual-bass-mode value="3"/>
       <virtual-bass-overall-gain value="0"/>
@@ -1351,7 +1351,7 @@
       </regulator-tuning>
       <regulator-sibilance-suppress-amounts-left value="-192,-320,-368,-304,-240,-208"/>
       <regulator-sibilance-suppress-amounts-right value="-176,-272,-336,-272,-224,-192"/>
-      <bass-enhancer-boost value="192"/>
+      <bass-enhancer-boost value="208"/>
       <bass-enhancer-cutoff-frequency value="200"/>
       <bass-enhancer-width value="16"/>
       <bass-extraction-cutoff-frequency value="200"/>
@@ -1368,9 +1368,9 @@
         </mix_matrix>
       </output-mode>
       <regulator-overdrive value="0"/>
-      <regulator-timbre-preservation value="12"/>
+      <regulator-timbre-preservation value="16"/>
       <regulator-stress-amount value="180,232,96,96"/>
-      <regulator-distortion-slope value="16"/>
+      <regulator-distortion-slope value="20"/>
       <bass-mbdrc-tuning value="0,-736,0,-640,-352,-256,0,8,16,-96,1,-1120,-16,-800,-240,0,-16,10,20,16,1,-1120,-32,-800,-240,0,-32,10,20,32,1,-1120,-16,-800,-240,0,-16,8,16,16,0,-1600,0,-1120,-400,-240,0,5,10,0,0,-1120,-32,-800,-240,0,-16,5,10,16,0,-1120,-32,-800,-240,0,-16,5,10,16,0,-1600,0,-1120,-400,-240,0,5,10,0"/>
       <virtual-bass-mode value="3"/>
       <virtual-bass-overall-gain value="0"/>
