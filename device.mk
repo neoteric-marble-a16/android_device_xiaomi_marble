@@ -40,19 +40,15 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 TARGET_GRALLOC_HANDLE_HAS_NO_RESERVED_SIZE := true
 
-# Dialer
-PRODUCT_PACKAGES += \
-    Dialer \
-    privapp_whitelist_com.android.dialer
-
-PRODUCT_DEFAULT_DIALER := com.android.dialer
-
 # Dolby
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
 
 # Fingerprint
 TARGET_USES_MFP_DAEMON := true
+
+#Foss Apps
+$(call inherit-product, vendor/foss/foss.mk)
 
 # GameBar Performance Overlay
 $(call inherit-product, packages/apps/GameBar/gamebar.mk)
@@ -116,10 +112,3 @@ PRODUCT_SHIPPING_API_LEVEL := 33
 
 # Vendor blobs
 $(call inherit-product, vendor/xiaomi/marble/marble-vendor.mk)
-
-PRODUCT_PACKAGES += \
-    Dialer \
-    privapp_whitelist_com.android.dialer
-
-# Optional – ensures this Dialer becomes default
-PRODUCT_DEFAULT_DIALER := com.android.dialer
