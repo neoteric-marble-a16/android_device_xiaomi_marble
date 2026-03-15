@@ -21,6 +21,9 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Characteristics
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# Datura
+PRODUCT_PACKAGES += Datura
+
 # Dialer
 $(call inherit-product, vendor/aosp/dialer/dialer.mk)
 
