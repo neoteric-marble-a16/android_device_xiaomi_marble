@@ -21,6 +21,9 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Characteristics
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# Dialer
+$(call inherit-product, vendor/aosp/dialer/dialer.mk)
+
 # Display / Graphics
 PRODUCT_COPY_FILES += \
 $(foreach did, 4630946370515662721 4630946370515662722 4630946480857061761 4630946480857061762, \
