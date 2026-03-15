@@ -30,13 +30,16 @@ PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.defer_refresh_rate_when_off=1 \
     vendor.display.enable_fp_monitor=1 \
     vendor.display.enable_hist_intr=1 \
-    vendor.display.idle_time=0 \
-    vendor.display.use_frame_scheduler_extension=0
+    vendor.display.idle_time=80 \
+    vendor.display.use_frame_scheduler_extension=1
 
 PRODUCT_SYSTEM_PROPERTIES += \
-    debug.sf.disable_client_composition_cache=1 \
     debug.sf.latch_unsignaled=1 \
+    ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     debug.sf.enable_gl_backpressure=1    
+
+PRODUCT_ODM_PROPERTIES += \
+    ro.surface_flinger.supports_background_blur=0    
 
 TARGET_GRALLOC_HANDLE_HAS_NO_RESERVED_SIZE := true
 
